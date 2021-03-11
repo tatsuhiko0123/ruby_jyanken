@@ -20,8 +20,7 @@ class Player
         puts "もう一度数字を入力してください。"
         puts "0:グー, 1:チョキ, 2:パー"
           # 変数「input_hand」にプレイヤーが入力したものを取得して代入します。
-        puts = gets.chomp
-        break
+        input_hand = gets.chomp
       end # if文のend
     end # while文のend
   end
