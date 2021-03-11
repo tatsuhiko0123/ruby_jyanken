@@ -1,12 +1,9 @@
-require 'byebug'
-
 # プレイヤー(自分)に「0 ~ 2」を入力させるロジックを書きます。
 class Player
   def hand
     # 「プレイヤーに 0 ~ 2を入力させる文章」を表示させます。
     puts "数字を入力してください。"
     puts "0:グー, 1:チョキ, 2:パー"
-    byebug
     # 変数「input_hand」にプレイヤーが入力したものを取得して代入します。
       # ヒント! 「getsメソッド」を使用します。
     input_hand = gets.chomp
